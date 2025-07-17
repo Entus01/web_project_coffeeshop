@@ -33,25 +33,23 @@
           />
           <ul class="nav__list">
             <li>
-              <a class="nav__link" href="#recipes">Recetas</a>
+              <a class="nav__links" href="#recipes">Recetas</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservations">Reservar una mesa</a>
+              <a class="nav__links" href="#reservation">Reservar una mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#contacts">Contactos</a>
+              <a class="nav__links" href="#contacts">Contactos</a>
             </li>
           </ul>
         </nav>
-        <div class="header__content">
-          <h1 class="header__title">
-            <span-accent>Café de especialidad</span-accent><br />en Triple Peaks
-          </h1>
-          <p class="header__description">
-            ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos<br />
-            café para darte energía y motivar tu creatividad.
-          </p>
-        </div>
+        <h1 class="header__title">
+          <span-accent>Café de especialidad</span-accent><br />en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos<br />
+          café para darte energía y motivar tu creatividad.
+        </p>
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
@@ -71,8 +69,11 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
-          <h3 class="recipes__subtitle">Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.</h3>
-          <div class="recipes__video">
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </h3>
+          <div class="recipes__videos">
             <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
@@ -80,9 +81,13 @@
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen>
+                allowfullscreen
+              >
               </iframe>
-              <div class="recipes__video-caption"><p>Receta en Aeropress</p><p>~5 min</p></div>
+              <div class="recipes__video-caption">
+                <p>Receta en Aeropress</p>
+                <p>~5 min</p>
+              </div>
             </div>
             <div class="recipes__video-item">
               <iframe
@@ -91,13 +96,17 @@
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen>
+                allowfullscreen
+              >
               </iframe>
-              <div class="recipes__video-caption"><p>Receta en cafetera francesa</p><p>~15 min</p></div>
+              <div class="recipes__video-caption">
+                <p>Receta en cafetera francesa</p>
+                <p>~15 min</p>
+              </div>
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
