@@ -216,8 +216,8 @@ span-accent {
 }
 
 .reservation__title {
-  margin: 0;
-  padding: 100px 0 80px 0;
+  margin: 100px 0 80px 0;
+  padding: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
