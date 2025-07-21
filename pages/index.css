@@ -12,6 +12,8 @@
 /*para fiente noto-serif
   font-family: "Noto Serif", "Times New Roman", serif;*/
 
+
+/*Encabezadop*/
 .header {
   position: relative;
   display: flex;
@@ -42,7 +44,7 @@
   top: 30PX;
 }
 
-.nav__list {
+.nav__links {
   position: absolute;
   right: 80px;
   top: 30px;
@@ -53,7 +55,7 @@
   list-style-type: none;
 }
 
-.nav__links {
+.nav__link {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -124,6 +126,7 @@ span-accent {
   right: 80px;
 }
 
+/*Recetas*/
 .recipes {
   position: relative;
   display: flex;
@@ -184,7 +187,7 @@ span-accent {
   row-gap: 24px;
 }
 
-.recipes__video-caption {
+.recipes__video-captions {
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -195,6 +198,116 @@ span-accent {
   line-height: 30px;
 }
 
-p {
+.recipes__video-caption {
   margin: 0;
+}
+
+/*Reservaciones*/
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation__title {
+  margin: 0;
+  padding: 100px 0 80px 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  padding: 0 0 120px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-bottom: 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  padding: 0;
+  /*como agrego la altura de 20px que solicitan en la seccion de medidas en el brief dentro de las cajas*/
+  height: 60px;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input:last-child {
+  margin-bottom: 0;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #2F80ED;
+  color: #ffffff;
+  max-width: 385px;
+  height: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.form__checkbox-input {
+  height: 20px;
+  width: 20px;
+}
+
+.form__checkbox-label {
+  vertical-align: top;
+  margin-left: 12px;
+}
+
+.form__checkbox-input:checked {
+  background-color: #2F80ED;
+  background-image: url(./images/checked_checkbox.svg);
+}
+
+::placeholder {
+  color: #838383;
 }
