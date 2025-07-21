@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: "Inter", Arial, sans-serif ;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -11,7 +11,6 @@
   font-family: "Inter", Arial, sans-serif;*/
 /*para fiente noto-serif
   font-family: "Noto Serif", "Times New Roman", serif;*/
-
 
 /*Encabezadop*/
 .header {
@@ -41,7 +40,7 @@
 .nav__logo_place {
   position: absolute;
   left: 30px;
-  top: 30PX;
+  top: 30px;
 }
 
 .nav__links {
@@ -66,7 +65,8 @@
 }
 
 .header__title {
-  padding: 252px 0 0 80px;  z-index: 1;
+  padding: 252px 0 0 80px;
+  z-index: 1;
   max-width: 709px;
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
@@ -78,7 +78,7 @@
 }
 
 span-accent {
-  color: #2F80ED;
+  color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -117,7 +117,7 @@ span-accent {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383
+  color: #838383;
 }
 
 .header__paragraph_place {
@@ -204,7 +204,7 @@ span-accent {
 
 /*Reservaciones*/
 .reservation {
-  background-color: #D9E7FF;
+  background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -271,7 +271,7 @@ span-accent {
 
 .form__button {
   border-radius: 4px;
-  background-color: #2F80ED;
+  background-color: #2f80ed;
   color: #ffffff;
   max-width: 385px;
   height: 60px;
@@ -304,7 +304,7 @@ span-accent {
 }
 
 .form__checkbox-input:checked {
-  background-color: #2F80ED;
+  background-color: #2f80ed;
   background-image: url(./images/checked_checkbox.svg);
 }
 
