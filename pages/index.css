@@ -1,4 +1,7 @@
-  /*page*/
+/* Normalize */
+@import url(../vendor/normalize.css);
+
+/*page*/
 @import url(../blocks/page.css);
 
   /*Header*/
