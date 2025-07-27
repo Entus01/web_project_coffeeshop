@@ -1,0 +1,81 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-bottom: 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  padding: 0;
+  /*como agrego la altura de 20px que solicitan en la seccion de medidas en el brief dentro de las cajas*/
+  height: 60px;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input:last-child {
+  margin-bottom: 0;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  max-width: 385px;
+  height: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.form__checkbox-input {
+  height: 20px;
+  width: 20px;
+}
+
+.form__checkbox-label {
+  vertical-align: top;
+  margin-left: 12px;
+}
+
+.form__checkbox-input:checked {
+  background-color: #2f80ed;
+  background-image: url(./images/checked_checkbox.svg);
+}
+
+::placeholder {
+  color: #838383;
+}
